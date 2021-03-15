@@ -1,3 +1,9 @@
+@font-face {
+    font-family: Qaranta;
+    src:url(../Fonts/Qaranta-Bold.otf);
+} 
+
+
 .comingsoon {
     height: 100vh;
     background-size: cover;
