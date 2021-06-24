@@ -1,0 +1,133 @@
+@font-face {
+    font-family: Qaranta;
+    src: url(../Fonts/Qaranta-Bold.otf);
+}
+
+.comingsoon {
+    min-height: 100vh;
+    background-size: cover;
+}
+
+
+.layer h2 {
+    padding-top: 3%;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    font-family: Qaranta;
+    font-weight: 900;
+    color: rgb(164, 214, 64);
+    transition: 0.5s;
+    
+}
+
+.layer {
+    text-align: center;
+  width: 100%;
+  height: 100vh;
+    animation: animate 3s linear infinite;
+    transition: 0.5s;
+}
+#policy{
+    position: absolute;
+    display: block;
+    bottom:5%;
+    left: 5%;
+    text-decoration: none;
+    color: #98ca62;
+    font-size: medium;
+    font-family:Qaranta ;
+    font-weight: 400;
+  
+}
+@keyframes animate {
+    0% {
+        filter: hue-rotate(0deg);
+    }
+    100% {
+        filter: hue-rotate(90deg);
+    }
+}
+
+@media only screen and (max-width:578px) {
+
+    .comingsoon,
+    .layer {
+        width: 100%;
+    }
+
+    .layer {
+        text-align: center;
+
+    }
+
+    .layer h2 {
+        margin-top: 30%;
+        font-size: medium;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .comingsoon {
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
+/* ====================== policy ========================= */
+.policy{
+    background-color: white;
+    padding: 2rem;
+    
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-family:Qaranta ;
+    text-align: justify;
+
+}
+
+
+.policy ul li {
+    list-style: none;
+    line-height: 1.7rem;
+}
+.policy ul li p{
+    padding-right: 1.7rem;
+    font-size: 18px;
+}
+#back{
+    display: block;
+    text-align: left;
+    text-decoration: none;
+    color: #98ca62;
+    font-size: x-large;
+    font-size: 24px;
+    font-family:Qaranta ;
+    font-weight: 400;
+    margin: 30px 30px ;
+    letter-spacing: 0.3rem;
+    justify-self: left;
+}
+@media only screen and (max-width:578px) {
+
+    
+    h2 {
+        width: 100%;
+        
+        font-size: medium;
+        font-weight: 600;
+        padding-right: 0;
+    }
+    .policy ul li p{
+        padding-right: 1.3rem;
+        font-size: 12px;
+    }
+    #back{
+        
+        font-size: large;
+        font-size: 14px;
+        font-family:Qaranta ;
+        font-weight: 400;
+        margin: 30px 30px ;
+        letter-spacing: 0.3rem;
+        justify-self: left;
+    }
+
+}
